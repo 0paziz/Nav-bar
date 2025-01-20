@@ -6,13 +6,13 @@ const menu_container=document.getElementById("nav-container");
 
 function display(){
 
-   menu_container.style.display="block"
+   menu_container.style.display="block";
 
 }
 
 function close(){
 
-     menu_container.style.display="none"
+     menu_container.style.display="none";
 }
 
 Menu_triggerID.addEventListener("click" , (event)=>{
